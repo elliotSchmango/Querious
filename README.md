@@ -38,6 +38,16 @@ pip3 install -r requirements.txt
 deactivate
 ```
 
+# To Run:
+1. In your project directory, run the following to populate your database:
+```
+streamlit run populate_database.py
+```
+2. Then in the same directory, run the app:
+```
+streamlit run ollama-streamlit-app.py
+```
+
 # Sources/Inspiration
 * https://medium.com/@maximejabarian/building-a-local-llms-app-with-streamlit-and-ollama-llama3-phi3-511d519c95fe
 * https://www.youtube.com/watch?v=2TJxpyO3ei4
